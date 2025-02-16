@@ -1,5 +1,7 @@
 body {
     background-color: #dbc6c6;
+    /* background-image: url(books.jpg); */
+    
 }
 
 .flex {
@@ -42,4 +44,14 @@ li a:hover {
 
 .p-2 {
     padding: 2rem;
+}
+
+section {
+    height: 600px;
+    width: auto;
+    background-image: url(books.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
