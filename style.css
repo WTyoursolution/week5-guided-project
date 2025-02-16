@@ -1,7 +1,7 @@
 body {
-    background-color: #dbc6c6;
-    /* background-image: url(books.jpg); */
-    
+     background-image: url(books.jpg);
+    height: 100%;
+    margin: 0;
 }
 
 .flex {
@@ -19,7 +19,7 @@ body {
 .name {
     font-size: 1.7rem;
     color: white;
-
+    
 }
 
 .space-between {
@@ -47,11 +47,104 @@ li a:hover {
 }
 
 section {
-    height: 600px;
+    height: 500px;
     width: auto;
     background-image: url(books.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+
+.title {
+font-size: 75px;
+color: white;
+text-align: center;
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.intro {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.intro-div {
+    width: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.quote, .quote-name {
+    color: white;
+    text-align: center;
+}
+
+.quote-div {
+    margin: 20px;
+}
+
+.quote {
+    font-size: 22px;
+}
+
+.quote-name {
+    font-size: 18px;
+}
+
+button {
+    align-items: center;
+    border: none;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    padding: 50px;
+}
+
+.content-div {
+    width: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.content-p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-title {
+    font-size: 75px;
+color: white;
+text-align: center;
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content:baseline
 }
