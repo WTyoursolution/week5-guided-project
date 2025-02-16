@@ -1,0 +1,45 @@
+body {
+    background-color: #dbc6c6;
+}
+
+.flex {
+    display: flex;
+}
+
+.headerbg {
+    background-color: #333;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.name {
+    font-size: 1.7rem;
+    color: white;
+
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: larger;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.p-2 {
+    padding: 2rem;
+}
