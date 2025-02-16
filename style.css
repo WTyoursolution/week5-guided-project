@@ -1,168 +1,174 @@
 body {
-     background-image: url(books.jpg);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+  background-image: url(books.jpg);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 .wrapper {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .headerbg {
-    background-color: #333;
+  background-color: #333;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .name {
-    font-size: 1.7rem;
-    color: white;
-    
+  font-size: 1.7rem;
+  color: white;
 }
 
 .space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    font-size: larger;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: larger;
 }
 
 ul {
-    list-style: none;
-    color: white;
+  list-style: none;
+  color: white;
 }
 
 li a:hover {
-    background-color: #111;
+  background-color: #111;
 }
 
 .p-2 {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .title {
-font-size: 75px;
-color: white;
-text-align: center;
-text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  font-size: 75px;
+  color: red;
+  text-align: center;
 }
 
 .intro {
-    color: white;
-    font-size: 25px;
-    text-align: center;
+  color: white;
+  font-size: 25px;
+  text-align: center;
 }
 
 .intro-div {
-    width: 45rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+  width: 45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.quote, .quote-name {
-    color: white;
-    text-align: center;
+.quote,
+.quote-name {
+  color: white;
+  text-align: center;
 }
 
 .quote-div {
-    margin: 20px;
+  margin: 20px;
 }
 
 .quote {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .quote-name {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .button-div > button {
-    align-items: center;
-    border: none;
-    color: white;
-    background-color: blue;
-    text-align: center;
-    font-size: 25px;
-    margin: 4px 2px;
-    cursor: pointer;
+  align-items: center;
+  border: none;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .button-div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 
 .content-div {
-    width: 45rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+  width: 45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 .content-p {
-    color: white;
-    font-size: 25px;
-    text-align: center;
+  color: white;
+  font-size: 25px;
+  text-align: center;
 }
 
 .content-title {
-    font-size: 75px;
-    color: white;
-    text-align: center;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  font-size: 75px;
+  color: red;
+  text-align: center;
 }
-
 
 /* form styles */
 .form-container {
-    display: flex;
-    flex-direction: column;
-    color: rgb(14, 13, 13);
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 30px;
-    border-radius: 10px;
-    width: 50%;
-    max-width: 500px;
-    margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  color: rgb(14, 13, 13);
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 500px;
+  margin: 30px auto;
 }
 
 #form-heading {
-    font-size: 75px;
-color: white;
-text-align: center;
-text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  font-size: 75px;
+  color: red;
+  text-align: center;
 }
 
 .sign-up {
-    margin-top: 20px;
-font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
 }
 
 label {
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
 }
 
 input {
-    border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* footer styles */
+
+footer {
+  color: white;
+  font-size: 1px;
+  text-align: center;
+  background-color: #333;
 }
